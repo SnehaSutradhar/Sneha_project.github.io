@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppin', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(Assets/images/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 90vh;
+    position: relative;
+}
+
+.main .box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.main input{
+    color: white;
+    padding: 16px 88px 16px 18px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.3);
+}
+
+nav{
+    position: relative;
+    max-width: 78vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 148px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+nav span{
+    margin-top: 27px;
+}
+
+.hero{
+    height: calc(100% - 108px);
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 23px;
+}
+
+.hero > :first-child{
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero > :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero > :nth-child(3){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.seperation{
+    height: 5px;
+    background-color: rgb(37, 36, 36);
+}
+
+.btn{
+    padding: 4px 35px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.3);
+    position: relative;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 15px 28px 14px 40px;
+    font-size: 23px;
+    border-radius: 4px;
+    border-color: red;
+}
+
+.btn-red:hover{
+    opacity: 0.90;
+}
+
+.btn-english{
+    padding: 4px 35px;
+    margin-top: 2px;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 15px;
+}
+
+.btn-red-sm:hover{
+    opacity: 0.90;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 27px;
+}
+
+.first{
+    color: white;
+    display: flex;
+    max-width: 83vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+    top: 6px;
+    opacity: 0.89;
+}
+
+.secImg img{
+    width: 40vw;
+    padding: 6px 0px 0px 2px;
+    position: relative;
+    bottom: 7px;
+}
+
+.secImg video{
+    position: absolute;
+    right: 0;
+    top: 68px;
+    width: 447px;
+    padding: 28px 86px;
+    z-index: -1;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+section > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 19px 0px 0px 0px;
+}
+
+section > div :nth-child(3){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+section.first.second > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+section.first.second > div :nth-child(2){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first.second > div :nth-child(3){
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 14px 0px 0px 0px;
+}
+
+section.first.second > div :nth-child(4){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+section.first.third > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+section.first.third  > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 22px 0px 0px 0px;
+}
+
+section.first.third  > div :nth-child(3){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+section.first.third  > div :nth-child(4){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+section.Conclusion{
+    height: 115vh;
+    color: white;
+}
+
+.header{
+    color: white;
+    height: 15vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    position: relative;
+    padding: 80px 0px 20px 0px;
+}
+
+section.Conclusion > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.Conclusion > div.faq > span{
+    width: 70vw;
+    height: 12vh;
+    background-color: rgb(51, 50, 50);
+    font-size: 25px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    flex-direction: row;
+}
+
+section.Conclusion > div.faq > span svg{
+    color: white;
+}
+
+.gap{
+    height: 10px;
+    color: black;
+}
+
+.hero_second{
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 23px;
+}
+
+.hero_second > :first-child{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero_second-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;   
+}
+
+.text_{
+    color: white;
+    padding: 16px 88px 16px 18px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.3);
+}
+
+#below{
+    height: 5px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 55px;
+}
+
+.End{
+    height: 30vw;
+    max-width: 100vh;
+    color: white;
+}

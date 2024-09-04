@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="fontawesome" href="https://fontawesome.com/icons/angle-left?f=classic&s=light">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <img src="Assets/photo/WhatsApp Image 2024-08-28 at 16.51.25_8e2bfb9c.jpg" class="left">
+        <!-- <i class="fa-light fa-angle-left left" style="color: #fdfcfc;"></i> -->
+        <div class="frame">
+            <div class="slider">
+                <img src="Assets/photo/635801702455477.jpg" class="image">
+                <img src="Assets/photo/71VOwBnN8oL.jpg" class="image">
+                <img src="Assets/photo/intro-section.webp" class="image">
+                <img src="Assets/photo/rhyno.294-2048x1072.png" class="image">
+            </div>
+        </div>
+        <!-- <i class="fa-light fa-angle-left right" style="color: #ffffff;"></i> -->
+        <img src="Assets/photo/WhatsApp Image 2024-08-28 at 16.51.25_8e2bfb9c.jpg" class="right">
+    </div>
+
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="Assets/photo/635801702455477.jpg"  class="d-block w-100 image" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Assets/photo/71VOwBnN8oL.jpg" class="d-block w-100 image" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Assets/photo/intro-section.webp" class="d-block w-100 image" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="Assets/photo/rhyno.294-2048x1072.png" class="d-block w-100 image" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script src="slider.js"></script>
+</body>
+</html>
